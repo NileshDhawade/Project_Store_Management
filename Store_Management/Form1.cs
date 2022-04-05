@@ -38,7 +38,7 @@ namespace Store_Management
 
             try
             {
-                string query = "select * from login_form where UserName='"+ txtUserName.Text+"' and Password ='"+txtPassword+"'";
+                string query = "select * from login_form where UserName='"+ txtUserName.Text+"' and Password ='"+txtPassword.Text+"'";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
 
                 DataTable dataTable= new DataTable();
@@ -51,7 +51,7 @@ namespace Store_Management
                     
                     // the page that need to be loaded next
 
-                    Form2 form2 = new Form2();
+                    FCustomerDetails form2 = new FCustomerDetails();
                     form2.Show();
                     this.Hide();
                 }
@@ -68,7 +68,7 @@ namespace Store_Management
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("error");
             }
             finally
             {

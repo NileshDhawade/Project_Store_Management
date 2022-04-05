@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Store_Management
 {
-    public partial class Form2 : Form
+    public partial class FCustomerDetails : Form
     {
-        public Form2()
+        public FCustomerDetails()
         {
             InitializeComponent();
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
