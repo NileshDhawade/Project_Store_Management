@@ -24,6 +24,11 @@ namespace Store_Management
 
         private void btnClear_Click(object sender, EventArgs e)
         {
+            txtCustomerId.Clear();
+            txtCustomerName.Clear();
+            txtPhoneNumber.Clear();
+            txtEmailId.Clear();
+            
 
         }
     }

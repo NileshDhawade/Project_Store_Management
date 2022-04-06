@@ -35,10 +35,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtCustomerId = new System.Windows.Forms.TextBox();
+            this.txtCustomerName = new System.Windows.Forms.TextBox();
+            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
+            this.txtEmailId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblCustomerId
@@ -102,7 +102,7 @@
             this.btnSubmit.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnSubmit.Location = new System.Drawing.Point(581, 477);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(93, 33);
+            this.btnSubmit.Size = new System.Drawing.Size(118, 45);
             this.btnSubmit.TabIndex = 5;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -114,39 +114,39 @@
             this.btnClear.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnClear.Location = new System.Drawing.Point(740, 477);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(85, 33);
+            this.btnClear.Size = new System.Drawing.Size(97, 45);
             this.btnClear.TabIndex = 6;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // textBox1
+            // txtCustomerId
             // 
-            this.textBox1.Location = new System.Drawing.Point(628, 151);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 26);
-            this.textBox1.TabIndex = 7;
+            this.txtCustomerId.Location = new System.Drawing.Point(628, 151);
+            this.txtCustomerId.Name = "txtCustomerId";
+            this.txtCustomerId.Size = new System.Drawing.Size(197, 26);
+            this.txtCustomerId.TabIndex = 7;
             // 
-            // textBox2
+            // txtCustomerName
             // 
-            this.textBox2.Location = new System.Drawing.Point(628, 227);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(197, 26);
-            this.textBox2.TabIndex = 8;
+            this.txtCustomerName.Location = new System.Drawing.Point(628, 227);
+            this.txtCustomerName.Name = "txtCustomerName";
+            this.txtCustomerName.Size = new System.Drawing.Size(197, 26);
+            this.txtCustomerName.TabIndex = 8;
             // 
-            // textBox3
+            // txtPhoneNumber
             // 
-            this.textBox3.Location = new System.Drawing.Point(628, 296);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(197, 26);
-            this.textBox3.TabIndex = 9;
+            this.txtPhoneNumber.Location = new System.Drawing.Point(628, 296);
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.Size = new System.Drawing.Size(197, 26);
+            this.txtPhoneNumber.TabIndex = 9;
             // 
-            // textBox4
+            // txtEmailId
             // 
-            this.textBox4.Location = new System.Drawing.Point(628, 362);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(197, 26);
-            this.textBox4.TabIndex = 10;
+            this.txtEmailId.Location = new System.Drawing.Point(628, 362);
+            this.txtEmailId.Name = "txtEmailId";
+            this.txtEmailId.Size = new System.Drawing.Size(197, 26);
+            this.txtEmailId.TabIndex = 10;
             // 
             // FCustomerDetails
             // 
@@ -154,10 +154,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Store_Management.Properties.Resources.OIP1;
             this.ClientSize = new System.Drawing.Size(1384, 630);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtEmailId);
+            this.Controls.Add(this.txtPhoneNumber);
+            this.Controls.Add(this.txtCustomerName);
+            this.Controls.Add(this.txtCustomerId);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label5);
@@ -182,9 +182,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtCustomerId;
+        private System.Windows.Forms.TextBox txtCustomerName;
+        private System.Windows.Forms.TextBox txtPhoneNumber;
+        private System.Windows.Forms.TextBox txtEmailId;
     }
 }
